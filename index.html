@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>AniMall: Tienda de Mascotas</title>
     <meta charset="UTF-8">
     <meta name="description" content="Tu tienda de mascotas de confianza en Bogotá">
     <!-- <meta name="keywords" content="KEYWORDS HERE!"> -->
     <meta name="author" content="AniMall Bogotá">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bill Ballas">
+    <meta name="publisher" content="AniMall">
+    <title>AniMall</title>
     <link rel="icon" href="assets/logos/logo.png" type="image/gif" sizes="20x20">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -44,7 +45,7 @@
                 <audio id="audio" src="assets/sounds/bark.wav"></audio>
                 <picture>
                     <source media="(min-width: 1050px)" srcset="assets/logos/logo.png">
-                    <img id="logo" src="assets/logos/other_logo.png" alt="site-logo" width="40px">
+                    <img id="logo" src="assets/logos/other_logo.png" alt="site-logo" title="AniMall logo" width="40px">
                 </picture>
             </a>
             <input type="text" class="search-form">
@@ -110,25 +111,25 @@
                     <div class="carousel-item active">
                         <picture>
                             <source media="(min-width: 1050px)" srcset="assets/low/birdboxyellow.jpg" class="d-block w-100">
-                            <img src="assets/high/birdboxyellow.jpg" class="d-block w-100" alt="S1">
+                            <img src="assets/high/birdboxyellow.jpg" class="d-block w-100" alt="S1" title="Bird box">
                         </picture>
                     </div>
                     <div class="carousel-item">
                         <picture>
                             <source media="(min-width: 1050px)" srcset="assets/low/cattoy.jpg" class="d-block w-100">
-                            <img src="assets/high/cattoy.jpg" class="d-block w-100" alt="S2">
+                            <img src="assets/high/cattoy.jpg" class="d-block w-100" alt="S2" title="Cat toy">
                         </picture>
                     </div>
                     <div class="carousel-item">
                         <picture>
                             <source media="(min-width: 1050px)" srcset="assets/low/foodham.jpg" class="d-block w-100">
-                            <img src="assets/high/foodham.jpg" class="d-block w-100" alt="S3">
+                            <img src="assets/high/foodham.jpg" class="d-block w-100" alt="S3" title="Food ham">
                         </picture>
                     </div>
                     <div class="carousel-item">
                         <picture>
                             <source media="(min-width: 1050px)" srcset="assets/low/dogtoyfris.jpg" class="d-block w-100">
-                            <img src="assets/high/dogtoyfris.jpg" class="d-block w-100" alt="S4">
+                            <img src="assets/high/dogtoyfris.jpg" class="d-block w-100" alt="S4" title="Dog toy">
                         </picture>
                     </div>
                 </div>
@@ -151,7 +152,7 @@
                             <a href="#food">
                                 <picture>
                                     <source media="(min-width: 1050px)" srcset="assets/low/foodham.jpg">
-                                    <img src="assets/high/foodham.jpg" alt="pic1">
+                                    <img src="assets/high/foodham.jpg" alt="pic1" title="Food ham">
                                 </picture>
                             </a>
                             <div class="overlay-up">
@@ -164,7 +165,7 @@
                             <a href="#toys">
                                 <picture>
                                     <source media="(min-width: 1050px)" srcset="assets/low/birdtoy.jpg">
-                                    <img src="assets/high/birdtoy.jpg" alt="pic1">
+                                    <img src="assets/high/birdtoy.jpg" alt="pic1" title="Bird toy">
                                 </picture>
                             </a>
                             <div class="overlay-up">
@@ -177,7 +178,7 @@
                             <a href="#clothes">
                                 <picture>
                                     <source media="(min-width: 1050px)" srcset="assets/low/dogclothes.jpg">
-                                    <img src="assets/high/dogclothes.jpg" alt="pic2">
+                                    <img src="assets/high/dogclothes.jpg" alt="pic2" title="Dog Clothes">
                                 </picture>
                             </a>
                             <div class="overlay-up">
@@ -190,7 +191,7 @@
                             <a href="#med">
                                 <picture>
                                     <source media="(min-width: 1050px)" srcset="assets/low/dogmed.jpg">
-                                    <img src="assets/high/dogmed.jpg" alt="pic3">
+                                    <img src="assets/high/dogmed.jpg" alt="pic3" title="Dog med">
                                 </picture>
                             </a>
                             <div class="overlay-up">
@@ -212,7 +213,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/dogfoodbone.jpg">
-                                <img src="assets/high/dogfoodbone.jpg" alt="pic1">
+                                <img src="assets/high/dogfoodbone.jpg" alt="pic1" title="Dog food bone">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -238,7 +239,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/dogfood.jpg">
-                                <img src="assets/high/dogfood.jpg" alt="pic1">
+                                <img src="assets/high/dogfood.jpg" alt="pic1" title="Dog food">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -264,7 +265,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/foodham.jpg">
-                                <img src="assets/high/foodham.jpg" alt="pic1">
+                                <img src="assets/high/foodham.jpg" alt="pic1" title="Food ham">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -290,7 +291,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/birdtoy.jpg">
-                                <img src="assets/high/birdtoy.jpg" alt="pic1">
+                                <img src="assets/high/birdtoy.jpg" alt="pic1" title="Bird toy">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -326,7 +327,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/dogtoy.jpg">
-                                <img src="assets/high/dogtoy.jpg" alt="pic1">
+                                <img src="assets/high/dogtoy.jpg" alt="pic1" title="Dog toy">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -352,7 +353,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/dogtoybone.jpg">
-                                <img src="assets/high/dogtoybone.jpg" alt="pic1">
+                                <img src="assets/high/dogtoybone.jpg" alt="pic1" title="Dog toy bone">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -378,7 +379,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/dogtoyfris.jpg">
-                                <img src="assets/high/dogtoyfris.jpg" alt="pic1">
+                                <img src="assets/high/dogtoyfris.jpg" alt="pic1" title="Dog toy">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -404,7 +405,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/dogclothes.jpg">
-                                <img src="assets/high/dogclothes.jpg" alt="pic1">
+                                <img src="assets/high/dogclothes.jpg" alt="pic1" title="Dog Clothes">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -432,7 +433,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/birdboxtrees.jpg">
-                                <img src="assets/high/birdboxtrees.jpg" alt="pic1">
+                                <img src="assets/high/birdboxtrees.jpg" alt="pic1" title="Bird box">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -458,7 +459,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/birdboxwood.jpg">
-                                <img src="assets/high/birdboxwood.jpg" alt="pic1">
+                                <img src="assets/high/birdboxwood.jpg" alt="pic1" title="Bird box">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -484,7 +485,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/birdboxyellow.jpg">
-                                <img src="assets/high/birdboxyellow.jpg" alt="pic1">
+                                <img src="assets/high/birdboxyellow.jpg" alt="pic1" title="Bird box">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -510,7 +511,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/birdtoy.jpg">
-                                <img src="assets/high/birdtoy.jpg" alt="pic1">
+                                <img src="assets/high/birdtoy.jpg" alt="pic1" title="Bird toy">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -537,7 +538,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/cattoy.jpg">
-                                <img src="assets/high/cattoy.jpg" alt="pic1">
+                                <img src="assets/high/cattoy.jpg" alt="pic1" title="Cat toy">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -563,7 +564,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/cattoyhigh.jpg">
-                                <img src="assets/high/cattoyhigh.jpg" alt="pic1">
+                                <img src="assets/high/cattoyhigh.jpg" alt="pic1" title="Cat toy">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -588,7 +589,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/catbag.jpg">
-                                <img src="assets/high/catbag.jpg" alt="pic1">
+                                <img src="assets/high/catbag.jpg" alt="pic1" title="Cat bag">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -624,7 +625,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/dogclothes.jpg">
-                                <img src="assets/high/dogclothes.jpg" alt="pic1">
+                                <img src="assets/high/dogclothes.jpg" alt="pic1" title="Dog Clothes">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -650,7 +651,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/dogmask.jpg">
-                                <img src="assets/high/dogmask.jpg" alt="pic1">
+                                <img src="assets/high/dogmask.jpg" alt="pic1" title="Dog mask">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -676,7 +677,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/catclothes.jpg">
-                                <img src="assets/high/catclothes.jpg" alt="pic1">
+                                <img src="assets/high/catclothes.jpg" alt="pic1" title="Cat Clothes">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -712,7 +713,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/dogmask.jpg">
-                                <img src="assets/high/dogmask.jpg" alt="pic1">
+                                <img src="assets/high/dogmask.jpg" alt="pic1" title="Dog Mask">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -738,7 +739,7 @@
                         <div class="prod-top">
                             <picture>
                                 <source media="(min-width: 1050px)" srcset="assets/low/dogmed.jpg">
-                                <img src="assets/high/dogmed.jpg" alt="pic1">
+                                <img src="assets/high/dogmed.jpg" alt="pic1" title="Dog">
                             </picture>
                             <div class="overlay-right">
                                 <button onclick="conf()" type="button" class="btn btn-secondary" title="Αγορά">
@@ -786,7 +787,7 @@
                         <ul>
                             <li>
                                 <a href="https://www.aueb.gr/" target="_blank">
-                                    <img src="https://upload.wikimedia.org/wikipedia/el/9/94/Athens_University_of_Economics_and_Business_%28logo%29.png" alt="AUEB Logo" class="aueb"></a>
+                                    <img src="https://upload.wikimedia.org/wikipedia/el/9/94/Athens_University_of_Economics_and_Business_%28logo%29.png" alt="AUEB Logo" title="AUEB Logo" class="aueb"></a>
                             </li>
                             <li>
                                 <a href="https://eclass.aueb.gr/" target="_blank">
@@ -794,11 +795,11 @@
                             </li>
                             <li>
                                 <a href="https://www.facebook.com/auebgreece" target="_blank">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/120px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook Logo" class="fb"></a>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/120px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook Logo" title="Facebook" class="fb"></a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/aueb.gr/?hl=el" target="_blank">
-                                    <img src="https://lh3.googleusercontent.com/2sREY-8UpjmaLDCTztldQf6u2RGUtuyf6VT5iyX3z53JS4TdvfQlX-rNChXKgpBYMw" alt="Instagram Logo" class="insta"></a>
+                                    <img src="https://lh3.googleusercontent.com/2sREY-8UpjmaLDCTztldQf6u2RGUtuyf6VT5iyX3z53JS4TdvfQlX-rNChXKgpBYMw" alt="Instagram Logo" title="Instagram" class="insta"></a>
                             </li>
                         </ul>
                     </div>
