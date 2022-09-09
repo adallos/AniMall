@@ -160,12 +160,12 @@ body {
     display: none;
 }
 
-#food,
+/* #food,
 #toys,
 #clothes,
 #med {
     height: 100px;
-}
+} */
 
 .slideshow {
     width: 60%;
@@ -433,12 +433,12 @@ footer .row a:hover {
     #open-btn {
         display: block;
     }
-    #food,
+    /* #food,
     #toys,
     #clothes,
     #med {
         height: 150px;
-    }
+    } */
     .slideshow {
         width: 100%;
         margin-left: 0;

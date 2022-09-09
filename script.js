@@ -32,21 +32,21 @@ if (window.innerWidth > 1050) {
 
 function conf() {
     var txt;
-    if (confirm("Do you want to complete your purchase?")) {
+    if (confirm("Quieres completar tu compra?")) {
         end();
     }
 }
 
 function end() {
-    alert("It will be in our store in 3-5 days. Come and take it!");
+    alert("La enviaremos a la puerta de tu casa en 3 días hábiles! Gracias por tu compra :)");
 }
 
 function priv() {
-    alert("We won't try to steal your data.");
+    alert("Prometemos que no guardaremos tu información personal.");
 }
 
 function sorry() {
-    alert("This part is still under construction.");
+    alert("Animall sigue en construcción. Vuelve pronto para más sorpresas.");
 }
 
 function play() {
