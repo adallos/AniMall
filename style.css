@@ -285,6 +285,11 @@ body {
     font-size: 10px;
 }
 
+.prod-bot .fa.fa-big {
+    color: gold;
+    font-size: 22px;
+}
+
 .prod-bot h3 {
     font-size: 20px;
     font-weight: bold;
@@ -293,6 +298,15 @@ body {
 .prod-bot h4 {
     font-size: 15px;
     padding-bottom: 10px;
+}
+
+.prod-bot.rating {
+    display: flex;
+    margin: 0 20px 20px 0;
+}
+
+.recipe-description {
+    margin-top: 20px;
 }
 
 footer {
